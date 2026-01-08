@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personality Test</title>
+  <style>
+    body {
+      background: #9c289c;
+      color: #040404;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    .box {
+      max-width: 600px;
+      margin: auto;
+      padding: 30px;
+      border: 1px solid #333;
+      border-radius: 10px;
+    }
+    button {
+      margin: 10px;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #progress {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #ffffff;
+    }
+    #result {
+      margin-top: 30px;
+      font-size: 22px;
+      line-height: 1.4;
+    }
+    #retake {
+      margin-top: 20px;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+<div class="box">
+  <h1>Advanced Personality Assessment</h1>
+  <p id="question"></p>
+  <div id="answers"></div>
+  <div id="progress"></div>
+  <div id="result"></div>
+  <div id="retake"></div>
+</div>
+
+<script>
+  const questions = [
+    "When faced with a problem, you usually:",
+    "Your sleep schedule can best be described as:",
+    "How often do you say 'I'll do it later'?",
+    "Pick the statement that feels right:",
+    "Be honest: why are you still clicking?"
+  ];
+
+  const answers = [
+    ["Overthink it", "Avoid it", "Google it", "Pretend it’ll fix itself"],
+    ["A suggestion, not a rule", "Completely ruined", "Somehow worse than yesterday", "A mystery to science"],
+    ["Occasionally", "Frequently", "Constantly", "It's basically my brand"],
+    ["I have potential", "I had potential", "I talk about potential", "Potential fears me"],
+    ["Curiosity", "Boredom", "Procrastination", "Poor decision-making"]
+  ];
+
+  const roasts = [
+    " Analysis Complete.<br><br>You are extremely consistent — unfortunately, in making bad choices. This test confirms what you already suspected but hoped wasn’t true.",
+    " Results Are In.<br><br>You have the confidence of someone who hasn’t reflected in years. Impressive. Concerning. Mostly impressive.",
+    " Deep Scan Finished.<br><br>You don’t lack potential. You just keep it safely unused, like fine china you never bring out.",
+    " Final Verdict.<br><br>You mistake movement for progress and effort for effectiveness. This test was more commitment than you’ve shown all week.",
+    " Personality Identified.<br><br>You are not lost. You know exactly what you should be doing. You’re just not doing it. Bold strategy."
+  ];
+
+  let current = 0;
+
+  function loadQuestion() {
+    document.getElementById("result").innerHTML = "";
+    document.getElementById("retake").innerHTML = "";
+    document.getElementById("question").innerText = questions[current];
+    document.getElementById("answers").innerHTML = "";
+    document.getElementById("progress").innerText =
+      `Analyzing personality… ${Math.round((current / questions.length) * 100)}%`;
+
+    answers[current].forEach(a => {
+      const btn = document.createElement("button");
+      btn.innerText = a;
+      btn.onclick = next;
+      document.getElementById("answers").appendChild(btn);
+    });
+  }
+
+  function next() {
+    current++;
+    if (current < questions.length) {
+      loadQuestion();
+    } else {
+      finishTest();
+    }
+  }
+
+  function finishTest() {
+    document.getElementById("question").innerText = "Finalizing results...";
+    document.getElementById("answers").innerHTML = "";
+    document.getElementById("progress").innerText =
+      "Running advanced analysis… (definitely real)";
+
+    setTimeout(() => {
+      const roast = roasts[Math.floor(Math.random() * roasts.length)];
+      document.getElementById("result").innerHTML = roast;
+      document.getElementById("progress").innerText = "100% complete";
+      showRetake();
+    }, 2000);
+  }
+
+  function showRetake() {
+    const btn = document.createElement("button");
+    btn.innerText = "I disagree with reality";
+    btn.onclick = retakeTest;
+    document.getElementById("retake").appendChild(btn);
+  }
+
+  function retakeTest() {
+    current = 0;
+    document.getElementById("progress").innerText =
+      "Resetting… statistically pointless but emotionally understandable.";
+    setTimeout(loadQuestion, 1000);
+  }
+
+  loadQuestion();
+</script>
+
+</body>
+</html>
+
