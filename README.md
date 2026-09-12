@@ -54,4 +54,4 @@ Everything lives in one file, so it's easy to make it your own:
 
 ## License
 
-MIT : do whatever you want with it.
+MIT License : do whatever you want with it.
