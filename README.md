@@ -23,15 +23,18 @@ No build step, no installation. Just open the file in a browser:
 ```bash
 git clone https://github.com/kiruthikaa-sri/advancedpersonalitytest.github.io.git
 cd advancedpersonalitytest.github.io
-open index.html   # or double-click the file
+start index.html   # or double-click the file
 ```
 
 Or serve it locally:
 
 ```bash
+python -m http.server
+```
+Or
+```bash
 python3 -m http.server
 ```
-
 then visit `http://localhost:8000/`.
 
 ## Customizing
