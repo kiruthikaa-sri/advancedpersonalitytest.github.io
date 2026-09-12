@@ -8,13 +8,12 @@ Ms Mantissa is a single-page, no-build personality quiz with a carnival fortune-
 
 ## Features
 
-- **In-character intro screen** with a disclaimer that doubles as a joke
-- **Five-question quiz flow** with a gold-on-wine carnival cabinet design
-- **Fake diagnostic scan** a spinning crystal-ball animation and status lines before your result appears
-- **Randomized roast results** so repeat visits get a different verdict
-- **Custom cursor** a glowing ring-and-dot cursor with a soft pink trail that follows your mouse
-- **Fully responsive**, keyboard-accessible, and respects `prefers-reduced-motion`
-- **Zero dependencies** just HTML, CSS, and  JS in a single file
+- **In character intro screen** with a disclaimer that also works as a joke
+- **Five-question quiz sequence** with a gold-on-wine carnival cabinet theme
+- **Bogus diagnostic scan** a spinning crystal ball animation and status messages before your results are revealed
+- **Randomized roasts** so that you don’t see the same message each time
+- **Special cursor** an animated glowing ring and dot cursor with a pink trail
+- **Responsive, accessible, and motion preferred** zero dependencies with just HTML, CSS, and JS in one file
 
 ## Getting started
 
