@@ -26,7 +26,7 @@ cd advancedpersonalitytest.github.io
 start index.html   # or double-click the file
 ```
 *P.S: Click Enter after pasting the code*
-Or serve it locally:
+*Or serve it locally:*
 
 ```bash
 python -m http.server
