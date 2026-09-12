@@ -18,7 +18,7 @@ Ms Mantissa is a single-page, no-build personality quiz with a carnival fortune-
 
 ## Getting started
 
-No build step, no installation. Just open the file in a browser:
+No build step, no installation. Just open terminal in your system and paste these codes:
 
 ```bash
 git clone https://github.com/kiruthikaa-sri/advancedpersonalitytest.github.io.git
