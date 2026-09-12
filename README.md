@@ -25,7 +25,7 @@ git clone https://github.com/kiruthikaa-sri/advancedpersonalitytest.github.io.gi
 cd advancedpersonalitytest.github.io
 start index.html   # or double-click the file
 ```
-P.S: Click Enter after pasting the code
+--P.S: Click Enter after pasting the code
 Or serve it locally:
 
 ```bash
