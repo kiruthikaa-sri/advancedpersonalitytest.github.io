@@ -1,6 +1,7 @@
 # Ms Mantissa
 
-An unlicensed fortune-teller who reads your personality and mildly insults you about it.
+Ms Mantissa is a fortune-teller with questionable qualifications who reads your personality and calls you out for it.
+
 
 **[Live demo(click here to open website) ](https://kiruthikaa-sri.github.io/advancedpersonalitytest.github.io/)**
 
