@@ -1,11 +1,8 @@
 # Ms Mantissa
 
-Ms Mantissa is a fortune-teller with questionable qualifications who reads your personality and calls you out for it.
-
+Meet Ms Mantissa, a fortune-teller with questionable qualifications who takes one look at your personality and isn't afraid to say what she thinks. She brings a carnival fortune-telling experience to life. Answer five questions, let Ms Mantissa consult the spirits and prepare yourself for a reading that might be a little too accurate.
 
 **[Live demo(click here to open website) ](https://kiruthikaa-sri.github.io/advancedpersonalitytest.github.io/)**
-
-Ms Mantissa is a single-page, no-build personality quiz with a carnival fortune-teller aesthetic. Answer five questions, watch her "consult the spirits" and receive a reading you didn't ask for but definitely deserve.
 
 ## Features
 
