@@ -10,11 +10,11 @@ Ms Mantissa is a single-page, no-build personality quiz with a carnival fortune-
 
 - **In-character intro screen** with a disclaimer that doubles as a joke
 - **Five-question quiz flow** with a gold-on-wine carnival cabinet design
-- **Fake diagnostic scan** — a spinning crystal-ball animation and status lines before your result appears
+- **Fake diagnostic scan** a spinning crystal-ball animation and status lines before your result appears
 - **Randomized roast results** so repeat visits get a different verdict
-- **Custom cursor** — a glowing ring-and-dot cursor with a soft pink trail that follows your mouse
+- **Custom cursor** a glowing ring-and-dot cursor with a soft pink trail that follows your mouse
 - **Fully responsive**, keyboard-accessible, and respects `prefers-reduced-motion`
-- **Zero dependencies** — just HTML, CSS, and vanilla JS in a single file
+- **Zero dependencies** just HTML, CSS, and  JS in a single file
 
 ## Getting started
 
@@ -25,7 +25,7 @@ git clone https://github.com/kiruthikaa-sri/advancedpersonalitytest.github.io.gi
 cd advancedpersonalitytest.github.io
 start index.html   # or double-click the file
 ```
---P.S: Click Enter after pasting the code
+*P.S: Click Enter after pasting the code*
 Or serve it locally:
 
 ```bash
