@@ -2,7 +2,7 @@
 
 Meet Ms Mantissa, a fortune-teller with questionable qualifications who takes one look at your personality and isn't afraid to say what she thinks. She brings a carnival fortune-telling experience to life. Answer five questions, let Ms Mantissa consult the spirits and prepare yourself for a reading that might be a little too accurate.
 
-**[Live demo(click here to open website) ](https://kiruthikaa-sri.github.io/advancedpersonalitytest.github.io/)**
+**[Live demo(click here to open the website) ](https://kiruthikaa-sri.github.io/advancedpersonalitytest.github.io/)**
 
 ## Features
 
