@@ -50,9 +50,9 @@ Everything lives in one file, so it's easy to make it your own:
 
 ## Tech stack
 
-- HTML5
-- CSS3 (custom properties, animations, no frameworks)
-- Vanilla JavaScript (no libraries)
+- HTML
+- CSS (custom properties, animations, no frameworks)
+-  JavaScript (no libraries)
 
 ## License
 
