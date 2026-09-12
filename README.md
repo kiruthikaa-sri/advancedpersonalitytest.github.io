@@ -29,7 +29,7 @@ start index.html   # or double-click the file
 ```bash
 python -m http.server
 ```
-Or
+or
 ```bash
 python3 -m http.server
 ```
